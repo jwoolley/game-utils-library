@@ -1,0 +1,11 @@
+﻿===============================================================================
+= NOTES
+===============================================================================
+
+- Scripts inside any "Editor" folder will be available to the Unity editor, but
+will not be included in the build. Use this for any editor-specific scripts 
+(except where it breaks things, e.g. with the ReadOnlyAttribute script).
+
+- Visual Studio includes files inside all "Editor" folders in a separate
+assembly, visible under the Solution Explorer pane as "Assembly-CSharp-Editor"
+(vs. the primary "Assembly-CSharp" assembly).
