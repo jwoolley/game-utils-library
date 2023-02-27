@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class LogManagerController : MonoBehaviour
 {
-  // Start is called before the first frame update
-   CustomLogger exampleLogger;
-  void Start() {
-      exampleLogger = LogManager.getLogger(this.GetType());
+    // Start is called before the first frame update
+    CustomLogger exampleLogger;
+    void Start() {
+        exampleLogger = LogManager.getLogger(this.GetType());
     }
 
     // Update is called once per frame
